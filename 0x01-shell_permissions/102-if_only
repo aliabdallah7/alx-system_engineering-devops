@@ -1,2 +1,2 @@
 #!/bin/bash
-chown --form=guillaume betty hello
+sudo chown --form=guillaume betty hello
