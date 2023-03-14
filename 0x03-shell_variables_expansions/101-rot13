@@ -1,2 +1,2 @@
 #!/bin/bash
-read text; echo $text | tr '[A-Za-z]' '[N-ZA-Mn-za-m]'
+exec 3<<<"$1"; cat <&3 | tr 'A-Za-z' 'N-ZA-Mn-za-m'; echo ""
