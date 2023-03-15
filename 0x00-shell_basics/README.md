@@ -128,16 +128,16 @@ rm *~
 ```
 <br>
 
-Create a script that creates the directories `welcome/`, `welcome/to/` and `welcome/to/school` in the current directory.
+To create the directories `welcome/`, `welcome/to/` and `welcome/to/school` in the current directory.
 
-You are only allowed to use two spaces (and lines) in your script, not more.
+We are only allowed to use two spaces (and lines) in your script, not more.
 ```bash
 #!/bin/bash
 mkdir -p welcome/to/school
 ```
 <br>
 
-Write a command that lists all the files and directories of the current directory, separated by commas (`,`).
+To list all the files and directories of the current directory, separated by commas (`,`).
 
 - Directory names should end with a slash (`/`)
 - Files and directories starting with a dot (`.`) should be listed
